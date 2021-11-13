@@ -25,7 +25,7 @@ function search() {
 
 
 
-      
+
       var sunrise = data.sys.sunrise;
       var sunrise_time = new Date(sunrise * 1000);
       var sunrise_time = document.getElementById('sunrise').innerHTML = sunrise_time.toLocaleTimeString();
